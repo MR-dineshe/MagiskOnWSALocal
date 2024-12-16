@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-java@v2  
         with:  
           java-version: '11'           # Specify the Java version  
-          distribution: 'adopt'        # Specify the distribution (e.g., 'adopt', 'temurin', 'zulu')  
+          distribution: 'temurin'        # Specify the distribution (e.g., 'adopt', 'temurin', 'zulu')  
 
       - name: Build the project  
         run: ./gradlew build          # Replace with your build command
